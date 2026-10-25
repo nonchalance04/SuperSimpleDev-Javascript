@@ -5,5 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <button>Hello</button>
+    <button class="js-button">JavaScript</button>
+    <script>
+      document.title = "DOM";
+      document.querySelector("button").innerHTML = "Greetings";
+      document.querySelector(".js-button").innerText = "Hi";
+    </script>
+  </body>
 </html>
